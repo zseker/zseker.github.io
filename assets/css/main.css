@@ -29,7 +29,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-body {
+
+
+	body {
 	line-height: 1;
 }
 
@@ -2598,6 +2600,10 @@ input, select, textarea {
 			display: block;
 		}
 
+		.rounded img{
+			border-radius: 30%;
+		}
+
 		.image.left, .image.right {
 			max-width: 40%;
 		}
@@ -2631,7 +2637,8 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
-
+		
+			
 		.image.main {
 			display: block;
 			margin: 4rem 0;
@@ -2645,6 +2652,7 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+		
 
 		@media screen and (max-width: 736px) {
 
